@@ -26,7 +26,7 @@
     --radius-sm: 8px;
     --font-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
     --font-mono: "JetBrains Mono", ui-monospace, monospace;
-    --nav-height: 72px;
+    --nav-height: 112px;
 }
 
 *,
@@ -183,8 +183,8 @@ textarea {
 }
 
 .brand-logo {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: var(--radius-sm);
     object-fit: contain;
 }
