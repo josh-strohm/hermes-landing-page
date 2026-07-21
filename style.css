@@ -182,13 +182,29 @@ textarea {
 }
 
 .brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.brand-title {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -0.01em;
     color: var(--text);
 }
 
+.brand-subtitle {
+    font-size: 11px;
+    color: var(--muted);
+    font-weight: 500;
+}
+
 .footer-brand .brand-text {
+    display: block;
+}
+
+.footer-brand .brand-title {
     font-size: 16px;
     font-weight: 700;
 }
