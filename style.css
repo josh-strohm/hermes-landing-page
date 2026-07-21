@@ -178,33 +178,19 @@ textarea {
 .brand {
     display: flex;
     align-items: center;
-    gap: 12px;
     flex-shrink: 0;
 }
 
-.brand-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: var(--radius-sm);
-    object-fit: contain;
-}
-
-.brand-copy {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.2;
-}
-
-.brand-title {
+.brand-text {
     font-size: 14px;
     font-weight: 600;
     letter-spacing: -0.01em;
+    color: var(--text);
 }
 
-.brand-subtitle {
-    font-size: 11px;
-    color: var(--muted);
-    font-weight: 500;
+.footer-brand .brand-text {
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .nav-links {
