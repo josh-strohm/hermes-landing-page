@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             if (submitButton) {
                 submitButton.disabled = true;
-                submitButton.textContent = 'Sending…';
+                submitButton.textContent = 'Sending...';
             }
 
             if (formNote) {

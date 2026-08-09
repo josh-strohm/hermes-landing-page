@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create a conversion-focused landing page that turns small business owners into clients for a **done-for-you Hermes Agent deployment** — not just installation, but the full infrastructure, integrations, and business-specific configuration required for the agent to do **real, recurring work** (not a chatbot demo that sits unused after week one).
+Create a conversion-focused landing page that turns small business owners into clients for a **done-for-you Hermes Agent deployment** - not just installation, but the full infrastructure, integrations, and business-specific configuration required for the agent to do **real, recurring work** (not a chatbot demo that sits unused after week one).
 
 **Primary conversion action:** Book a free 20-minute discovery call (Calendly) or submit a short intake form.
 
@@ -12,7 +12,7 @@ Create a conversion-focused landing page that turns small business owners into c
 
 ## Positioning Statement
 
-> **Strohm Partners sets up Hermes Agent — a self-hosted AI employee that remembers your business, runs on a schedule, and works from the apps you already use — so you never have to touch servers, API keys, or YAML files.**
+> **Strohm Partners sets up Hermes Agent - a self-hosted AI employee that remembers your business, runs on a schedule, and works from the apps you already use - so you never have to touch servers, API keys, or YAML files.**
 
 Hermes Agent (by [Nous Research](https://nousresearch.com)) is powerful open-source software. Small businesses hear about AI agents constantly but stall at: *Where does it run? Which model? How do I connect email, calendar, and CRM? What should I actually ask it to do every day?* This service removes that entire gap.
 
@@ -36,13 +36,13 @@ Hermes Agent (by [Nous Research](https://nousresearch.com)) is powerful open-sou
 ### What they are **not**
 - Enterprise IT teams rolling their own k8s
 - Developers who want to self-host and tinker
-- Businesses looking for a generic chatbot widget on their website (that's a different product — see cross-sell note below)
+- Businesses looking for a generic chatbot widget on their website (that's a different product - see cross-sell note below)
 
 ---
 
 ## Core Value Proposition
 
-**Get a working AI agent that knows your business, runs 24/7 on dedicated infrastructure, and handles real tasks — installed, configured, and maintained for you.**
+**Get a working AI agent that knows your business, runs 24/7 on dedicated infrastructure, and handles real tasks - installed, configured, and maintained for you.**
 
 | Pain | Promise |
 |------|---------|
@@ -57,15 +57,15 @@ Hermes Agent (by [Nous Research](https://nousresearch.com)) is powerful open-sou
 ## Messaging Hierarchy
 
 ### One-liner (nav / meta description)
-*Done-for-you Hermes Agent setup for small businesses — infrastructure, integrations, and workflows included.*
+*Done-for-you Hermes Agent setup for small businesses - infrastructure, integrations, and workflows included.*
 
 ### Hero headline (pick one for A/B later)
-1. **"Your AI employee — installed, configured, and working in days."** *(recommended default)*
+1. **"Your AI employee - installed, configured, and working in days."** *(recommended default)*
 2. **"Stop experimenting with ChatGPT. Start running an agent that remembers your business."**
 3. **"We build the infrastructure. Hermes does the work."**
 
 ### Hero subheadline
-*Strohm Partners deploys [Hermes Agent](https://hermes-agent.nousresearch.com) on secure cloud infrastructure, connects it to the tools you already use, and configures real recurring tasks — lead follow-up, inbox summaries, appointment prep, and more — so you get results without touching a terminal.*
+*Strohm Partners deploys [Hermes Agent](https://hermes-agent.nousresearch.com) on secure cloud infrastructure, connects it to the tools you already use, and configures real recurring tasks - lead follow-up, inbox summaries, appointment prep, and more - so you get results without touching a terminal.*
 
 ### Proof strip (under CTAs)
 - **3–5 days** typical go-live
@@ -103,7 +103,7 @@ Hermes Agent (by [Nous Research](https://nousresearch.com)) is powerful open-sou
 - Secondary CTA: **"See what it can do"** → `#use-cases`
 - Proof strip: 3 stat pills (days to launch, uptime, no coding)
 
-**Hero visual — "Agent Command Center" mockup (CSS/HTML, no screenshot dependency):**
+**Hero visual - "Agent Command Center" mockup (CSS/HTML, no screenshot dependency):**
 
 Design a stylized composite card (similar in craft to the AI Websites browser mockup) showing:
 
@@ -118,15 +118,15 @@ Design a stylized composite card (similar in craft to the AI Websites browser mo
 │  └─────────────────┘  └────────────────┘  │
 │  ┌─────────────────────────────────────────┐│
 │  │ 💬 "Follow up with leads from yesterday"││
-│  │    Agent drafted 3 emails — awaiting OK ││
+│  │    Agent drafted 3 emails - awaiting OK ││
 │  └─────────────────────────────────────────┘│
 │  Connected: Gmail · Google Calendar · Sheets│
 └─────────────────────────────────────────────┘
 ```
 
 **Visual details:**
-- Dark navy shell (`#020617` family — consistent with Strohm Partners site)
-- Warm gold accent (`#C6AC8F` / `#EAE0D5`) on active elements — nod to Hermes WebUI "Sienna" / default gold palette without copying their UI wholesale
+- Dark navy shell (`#020617` family - consistent with Strohm Partners site)
+- Warm gold accent (`#C6AC8F` / `#EAE0D5`) on active elements - nod to Hermes WebUI "Sienna" / default gold palette without copying their UI wholesale
 - Subtle animated pulse on "Cron: Mon 8am" badge (CSS only, respects `prefers-reduced-motion`)
 - Floating connector chips: Gmail, Calendar, SMS, CRM (generic icons)
 
@@ -134,50 +134,50 @@ Design a stylized composite card (similar in craft to the AI Websites browser mo
 
 ---
 
-### 2. Problem Section — "Why most small businesses never get past the demo"
+### 2. Problem Section - "Why most small businesses never get past the demo"
 
 **Eyebrow:** The problem  
 **H2:** AI demos are easy. A working agent is not.
 
-**Intro paragraph:** Name the gap honestly — business owners are sold "AI" but left with a login and no plan.
+**Intro paragraph:** Name the gap honestly - business owners are sold "AI" but left with a login and no plan.
 
 **Pain grid (4 cards, numbered 01–04):**
 
 | # | Title | Body |
 |---|-------|------|
-| 01 | **Installation paralysis** | Hermes runs on a server, needs model providers, env files, and gateways — most owners stop at the install script. |
+| 01 | **Installation paralysis** | Hermes runs on a server, needs model providers, env files, and gateways - most owners stop at the install script. |
 | 02 | **No connections** | An agent that can't see your inbox, calendar, or lead forms is just another chat window. |
 | 03 | **No recurring jobs** | Without scheduled tasks and memory, you re-explain your business every single session. |
 | 04 | **No one to call** | When API keys expire or cron jobs fail at 2am, DIY setups quietly die. |
 
-**Tone:** Empathetic, not condescending. These owners are capable — they're time-starved, not ignorant.
+**Tone:** Empathetic, not condescending. These owners are capable - they're time-starved, not ignorant.
 
 ---
 
-### 3. Solution Section — "What Strohm Partners actually delivers"
+### 3. Solution Section - "What Strohm Partners actually delivers"
 
 **Eyebrow:** The solution  
 **H2:** We don't hand you software. We hand you a working agent.
 
-**Intro:** Frame the deliverable as three layers — **Infrastructure**, **Configuration**, **Workflows**.
+**Intro:** Frame the deliverable as three layers - **Infrastructure**, **Configuration**, **Workflows**.
 
 **Three pillar cards (icon + title + bullet list):**
 
-#### Pillar A — Infrastructure (the part you never want to think about)
-- Managed VPS or cloud host (e.g. Hostinger, Hetzner — sized for the business)
+#### Pillar A - Infrastructure (the part you never want to think about)
+- Managed VPS or cloud host (e.g. Hostinger, Hetzner - sized for the business)
 - Hermes Agent + WebUI installed and hardened
 - HTTPS access, firewall, automatic restarts, backup of `~/.hermes` state
 - Model provider wired (Nous Portal, OpenRouter, or client-preferred)
 - Optional: isolated Docker deployment for cleaner upgrades
 
-#### Pillar B — Configuration (making Hermes *yours*)
+#### Pillar B - Configuration (making Hermes *yours*)
 - Business `SOUL.md` / personality tuned to brand voice
 - Context files: services, pricing, service area, FAQs, team roster
 - Memory seeded with company facts so day-one conversations aren't cold starts
-- Messaging surface: SMS, email, Telegram, or Slack — owner's preference
+- Messaging surface: SMS, email, Telegram, or Slack - owner's preference
 - Security: command approval rules, credential isolation, least-privilege API scopes
 
-#### Pillar C — Workflows (the part that pays for itself)
+#### Pillar C - Workflows (the part that pays for itself)
 - 3–5 **go-live automations** chosen in discovery (see Use Cases)
 - Cron jobs with delivery to phone/email (morning briefings, lead digests)
 - N8N bridges where needed (form → agent → CRM → follow-up sequence)
@@ -185,19 +185,19 @@ Design a stylized composite card (similar in craft to the AI Websites browser mo
 - 30-day tuning period: we adjust prompts, schedules, and integrations based on real usage
 
 **Callout box (highlighted):**
-> **You interact like a owner, not an admin.** Text your agent, check the web dashboard, or read scheduled summaries — we maintain everything underneath.
+> **You interact like a owner, not an admin.** Text your agent, check the web dashboard, or read scheduled summaries - we maintain everything underneath.
 
 ---
 
-### 4. "What is Hermes Agent?" — Credibility without jargon
+### 4. "What is Hermes Agent?" - Credibility without jargon
 
 **Eyebrow:** The technology  
-**H2:** Built on Hermes Agent — the open-source agent that gets smarter over time.
+**H2:** Built on Hermes Agent - the open-source agent that gets smarter over time.
 
 **Layout:** Short explainer (left) + feature checklist (right). Link to official docs for technical visitors.
 
 **Plain-language explainer (max 120 words):**
-Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it **remembers** your business across sessions, **learns** reusable skills from real work, and **runs jobs on a schedule** — even when you're not online. It connects to email, messaging apps, calendars, and business tools through secure integrations. We chose Hermes because it's open, runs on infrastructure you control, and is built for long-running operational work — not one-off Q&A.
+Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it **remembers** your business across sessions, **learns** reusable skills from real work, and **runs jobs on a schedule** - even when you're not online. It connects to email, messaging apps, calendars, and business tools through secure integrations. We chose Hermes because it's open, runs on infrastructure you control, and is built for long-running operational work - not one-off Q&A.
 
 **Feature checklist (with simple icons):**
 - ✅ Persistent memory across sessions
@@ -205,13 +205,13 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 - ✅ 20+ messaging channels (SMS, email, Telegram, Slack, …)
 - ✅ Self-improving skills from real tasks
 - ✅ Web dashboard for chat & monitoring
-- ✅ Open source — no vendor lock-in on the agent itself
+- ✅ Open source - no vendor lock-in on the agent itself
 
 **Trust link:** "Learn more about Hermes Agent →" (external, `hermes-agent.nousresearch.com`)
 
 ---
 
-### 5. Use Cases Section — "Real work, not toy prompts"
+### 5. Use Cases Section - "Real work, not toy prompts"
 
 **Eyebrow:** Use cases  
 **H2:** What your agent can do in the first 30 days.
@@ -233,7 +233,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 - **Contractors / trades:** Permit deadline reminders, quote follow-up sequences, job-site note capture via voice/text
 - **Cleaning / home services:** Recurring client check-ins, supply reorder reminders, review request drafts
 - **Auto / glass / repair:** Insurance claim status tracking, parts vendor email drafts, emergency after-hours triage
-- **Health & wellness:** Appointment reminder prep (no PHI in examples — keep HIPAA disclaimer in FAQ), intake form summaries
+- **Health & wellness:** Appointment reminder prep (no PHI in examples - keep HIPAA disclaimer in FAQ), intake form summaries
 - **Professional services:** Proposal first-draft generation, meeting notes → action items, client onboarding checklists
 
 **Each card structure:**
@@ -246,7 +246,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ---
 
-### 6. How It Works — 4-step timeline
+### 6. How It Works - 4-step timeline
 
 **Eyebrow:** Process  
 **H2:** Live in days, not months.
@@ -267,7 +267,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ---
 
-### 7. What's Included — Deliverables checklist
+### 7. What's Included - Deliverables checklist
 
 **Eyebrow:** Deliverables  
 **H2:** Everything in your deployment package.
@@ -303,7 +303,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ---
 
-### 8. Comparison Section — "Why not DIY or ChatGPT?"
+### 8. Comparison Section - "Why not DIY or ChatGPT?"
 
 **Eyebrow:** Compare  
 **H2:** This is not a chatbot subscription.
@@ -319,7 +319,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 | Someone to call when it breaks | No | Discord / GitHub | Us |
 | Monthly cost | $20–30/user | VPS + API + your time | Predictable care plan |
 
-**Tone:** Fair to DIY — acknowledge Hermes is open source and power users can self-host. Position the service as **time recovery**, not superiority.
+**Tone:** Fair to DIY - acknowledge Hermes is open source and power users can self-host. Position the service as **time recovery**, not superiority.
 
 ---
 
@@ -330,7 +330,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 **Layout:** 3-tier pricing cards; middle tier marked "Most popular".
 
-#### Starter — "Agent Foundation"
+#### Starter - "Agent Foundation"
 **$1,500 one-time setup**  
 *Best for: solo owners testing their first operational agent*
 
@@ -346,7 +346,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ---
 
-#### Growth — "Agent Operator" ⭐ Most popular
+#### Growth - "Agent Operator" ⭐ Most popular
 **$2,500 one-time setup**  
 *Best for: businesses ready to replace 5–10 hrs/week of admin work*
 
@@ -363,8 +363,8 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ---
 
-#### Custom — "Multi-location / Team"
-**From $4,500** — scoped after discovery  
+#### Custom - "Multi-location / Team"
+**From $4,500** - scoped after discovery
 *Best for: multi-location, office manager + owner, compliance-sensitive workflows*
 
 - Multi-user routing & approval chains
@@ -378,11 +378,11 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 ---
 
 **Pricing footnotes (small text below cards):**
-- Model/API usage (OpenRouter, Nous Portal, etc.) billed separately at pass-through cost — we set spend caps.
+- Model/API usage (OpenRouter, Nous Portal, etc.) billed separately at pass-through cost - we set spend caps.
 - Client owns VPS and agent data; we manage it on their behalf.
 - Setup fee due at kickoff; care plan begins at go-live.
 
-**CTA under pricing:** **"Not sure which tier? Book a free call — we'll recommend in 20 minutes."**
+**CTA under pricing:** **"Not sure which tier? Book a free call - we'll recommend in 20 minutes."**
 
 ---
 
@@ -393,26 +393,26 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 **Layout:** 3 testimonial cards + logo strip + guarantee badge row.
 
-**Testimonials (placeholders until real clients — write believable, specific, non-HIPAA-violating copy):**
+**Testimonials (placeholders until real clients - write believable, specific, non-HIPAA-violating copy):**
 
-> "I thought AI meant another app to check. Now I get a text every morning with what actually matters — leads, schedule, follow-ups I forgot. I didn't touch a single setting."  
-> — **Mike T., Landscaping owner, Central PA**
+> "I thought AI meant another app to check. Now I get a text every morning with what actually matters - leads, schedule, follow-ups I forgot. I didn't touch a single setting."
+> - **Mike T., Landscaping owner, Central PA**
 
 > "We'd been 'trying ChatGPT' for months. Strohm had Hermes answering quote follow-ups within a week. The approval step before emails go out sold me."  
-> — **Lisa R., Office manager, residential cleaning**
+> - **Lisa R., Office manager, residential cleaning**
 
 > "I'm not technical. I didn't want technical. I wanted someone to own the server and tell me what to ask the agent. That's what I got."  
-> — **James K., Auto glass shop owner**
+> - **James K., Auto glass shop owner**
 
-**Logo strip:** Strohm Partners + "Powered by Hermes Agent" + "Built with N8N" (if used) — grayscale, low contrast.
+**Logo strip:** Strohm Partners + "Powered by Hermes Agent" + "Built with N8N" (if used) - grayscale, low contrast.
 
 **Trust badges row:**
 - 🔒 You own your data
 - 📋 Written agent playbook included
 - 🛠️ 30-day tuning (Growth)
-- 💬 Human support — not a ticket black hole
+- 💬 Human support - not a ticket black hole
 
-**Optional:** Link to existing Strohm Partners website client work (JT3 Hauling, Mrs. Redbottom's, Central PA Auto Glass) as proof of local business fluency — separate subsection: *"We already build AI-powered systems for local businesses."*
+**Optional:** Link to existing Strohm Partners website client work (JT3 Hauling, Mrs. Redbottom's, Central PA Auto Glass) as proof of local business fluency - separate subsection: *"We already build AI-powered systems for local businesses."*
 
 ---
 
@@ -426,11 +426,11 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 1. **Do I need to buy my own server?**  
    We provision and manage it. You own the account; we handle the rest. If you ever leave, you keep the VPS and full agent export.
 
-2. **What is Hermes Agent — is it like ChatGPT?**  
-   ChatGPT is a conversation. Hermes is a persistent agent that runs on your server, remembers your business, connects to tools, and executes scheduled work. We use it because it's open-source and operational — not a wrapper around a single chat window.
+2. **What is Hermes Agent - is it like ChatGPT?**
+   ChatGPT is a conversation. Hermes is a persistent agent that runs on your server, remembers your business, connects to tools, and executes scheduled work. We use it because it's open-source and operational - not a wrapper around a single chat window.
 
 3. **How much do AI model API costs run?**  
-   Typically $30–$120/month for a small business with daily briefings and moderate email drafting — depends on volume. We configure spend caps and show you a monthly usage summary.
+   Typically $30–$120/month for a small business with daily briefings and moderate email drafting - depends on volume. We configure spend caps and show you a monthly usage summary.
 
 4. **Is my customer data safe?**  
    Data stays on infrastructure we set up for you (or your existing cloud, for Custom). Credentials live in encrypted env files. We configure approval gates so the agent can't send external emails or messages without rules you agree to.
@@ -442,10 +442,10 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
    No. We give you a playbook with example requests. The agent already knows your services, hours, and tone. You talk normally.
 
 7. **What if I already pay for ChatGPT Team?**  
-   Keep it for ad-hoc brainstorming if you like. Hermes handles *operational* work — scheduled, connected, remembered. They complement each other.
+   Keep it for ad-hoc brainstorming if you like. Hermes handles *operational* work - scheduled, connected, remembered. They complement each other.
 
 8. **Can the agent answer my customer-facing phone or website chat?**  
-   That's a separate integration (voice/chat widget). We can add it on Custom plans. Standard packages focus on **owner and staff** operational assistance first — where ROI is fastest.
+   That's a separate integration (voice/chat widget). We can add it on Custom plans. Standard packages focus on **owner and staff** operational assistance first - where ROI is fastest.
 
 9. **What happens after the tuning period ends?**  
    Continue on a care plan (recommended) or run self-managed. We'll hand off credentials and documentation either way.
@@ -461,20 +461,20 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 **H2:** Ready for an agent that actually works?
 
-**Body:** Book a free 20-minute discovery call. We'll tell you honestly if Hermes is a fit — and which 3 tasks would pay for the setup in month one.
+**Body:** Book a free 20-minute discovery call. We'll tell you honestly if Hermes is a fit - and which 3 tasks would pay for the setup in month one.
 
 **Primary CTA:** **"Book My Discovery Call"** (Calendly embed or link)
 
 **Secondary:** **"Send me the readiness checklist"** (email field → N8N webhook, same pattern as AI Websites site)
 
 **Urgency (use only if true):**  
-*"Taking 4 new deployments per month to keep quality high — [X] slots left for [Month]."*
+*"Taking 4 new deployments per month to keep quality high - [X] slots left for [Month]."*
 
 ---
 
 ### 13. Contact / Booking Section (`#contact`)
 
-**Layout:** Split — Calendly inline embed left, short intake form right.
+**Layout:** Split - Calendly inline embed left, short intake form right.
 
 **Intake form fields (minimal):**
 - Name
@@ -485,7 +485,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 - "What's the one task you wish someone handled every day?" (textarea)
 - Submit → N8N webhook → Google Sheet + notification email
 
-**Privacy note:** One line under form — *We'll only use this to prepare for your call.*
+**Privacy note:** One line under form - *We'll only use this to prepare for your call.*
 
 ---
 
@@ -505,7 +505,7 @@ Hermes is a self-hosted AI agent created by Nous Research. Unlike a chatbot, it 
 
 ### Design direction: "Trusted operator, not sci-fi startup"
 
-Small business owners need to feel **competence and calm**, not hype. The page should read like a serious local IT/consulting firm that happens to deploy cutting-edge open-source AI — not a crypto landing page or a generic SaaS template.
+Small business owners need to feel **competence and calm**, not hype. The page should read like a serious local IT/consulting firm that happens to deploy cutting-edge open-source AI - not a crypto landing page or a generic SaaS template.
 
 ### Relationship to existing Strohm Partners site
 
@@ -549,7 +549,7 @@ Reuse the **dark navy foundation** from `ai-local-website-service/style.css` for
 
 - **Style:** Simple line icons (Lucide or Phosphor), 1.5px stroke, `--primary` color
 - **No:** 3D robots, brain clipart, purple gradient "AI" stock art
-- **Yes:** Server/cloud, calendar, inbox, clock, checklist, phone-message, shield — operational metaphors
+- **Yes:** Server/cloud, calendar, inbox, clock, checklist, phone-message, shield - operational metaphors
 - **Hero mockup:** Pure CSS/HTML composite (browser-chrome card pattern from AI Websites site)
 
 ### Motion
@@ -561,7 +561,7 @@ Reuse the **dark navy foundation** from `ai-local-website-service/style.css` for
 
 ### Photography (optional, v2)
 
-If real photos are added later: owner at job site, office manager at desk, phone notification close-up — warm natural light, not staged headset support reps.
+If real photos are added later: owner at job site, office manager at desk, phone notification close-up - warm natural light, not staged headset support reps.
 
 ---
 
@@ -570,14 +570,14 @@ If real photos are added later: owner at job site, office manager at desk, phone
 - **Plain English.** Replace "LLM", "MCP", "YAML" with "AI model", "integrations", "settings" on the main page. Jargon OK only in FAQ footnotes and the Hermes explainer link-out.
 - **Outcome-first.** Every feature bullet leads with what the owner experiences, not what we install.
 - **Honest scope.** Say what the agent won't do (replace licensed professionals, handle unchecked customer-facing medical advice, etc.).
-- **Local business fluency.** Use examples from trades, cleaning, auto, wellness — mirroring Strohm Partners' existing client verticals.
+- **Local business fluency.** Use examples from trades, cleaning, auto, wellness - mirroring Strohm Partners' existing client verticals.
 - **Confidence without hype.** Avoid "revolutionary", "10x", "AGI". Use "working agent", "real tasks", "less admin work".
 
 ---
 
 ## Technical Implementation Notes
 
-### Stack (recommended — match AI Websites site for velocity)
+### Stack (recommended - match AI Websites site for velocity)
 
 | Piece | Choice |
 |-------|--------|
@@ -593,7 +593,7 @@ If real photos are added later: owner at job site, office manager at desk, phone
 ### Performance targets
 
 - Lighthouse Performance ≥ 90 mobile
-- No external font blocking — use system font stack or self-host Inter subset
+- No external font blocking - use system font stack or self-host Inter subset
 - Hero mockup is CSS-only (no heavy images)
 - Total page weight < 500KB excluding Calendly embed
 
@@ -624,8 +624,8 @@ landing-page/
 
 ### Primary traffic sources
 1. **LinkedIn outreach** to local business owners (same motion as AI Websites plan)
-2. **Warm network** — existing website clients offered agent setup add-on
-3. **Local business groups** — chamber of commerce, trade associations
+2. **Warm network** - existing website clients offered agent setup add-on
+3. **Local business groups** - chamber of commerce, trade associations
 4. **Content cross-link** from Strohm Partners AI Websites page → Hermes setup page
 
 ### Conversion targets
@@ -653,7 +653,7 @@ Hermes Agent Setup ($1,500–$2,500)  →  works those leads + daily ops
 Care Plan ($149–$249/mo)             →  ongoing tuning + hosting
 ```
 
-**Bundle idea (future):** "Growth Stack" — website + Hermes Growth tier at 10% discount.
+**Bundle idea (future):** "Growth Stack" - website + Hermes Growth tier at 10% discount.
 
 ---
 
@@ -671,19 +671,19 @@ Care Plan ($149–$249/mo)             →  ongoing tuning + hosting
 
 ## Next Steps After Plan Approval
 
-1. **Wireframe** — sketch hero mockup and pricing cards in browser (static HTML prototype)
-2. **Copy pass** — finalize headline, testimonials (real or clearly marked draft), pricing footnotes
-3. **Build** — implement `index.html` + `style.css` + `script.js` following this spec
-4. **Integrate** — Calendly + N8N webhook + analytics
-5. **Review** — mobile QA, accessibility spot-check, Lighthouse run
-6. **Launch** — deploy, share with 2–3 friendly business owners for feedback before paid outreach
+1. **Wireframe** - sketch hero mockup and pricing cards in browser (static HTML prototype)
+2. **Copy pass** - finalize headline, testimonials (real or clearly marked draft), pricing footnotes
+3. **Build** - implement `index.html` + `style.css` + `script.js` following this spec
+4. **Integrate** - Calendly + N8N webhook + analytics
+5. **Review** - mobile QA, accessibility spot-check, Lighthouse run
+6. **Launch** - deploy, share with 2–3 friendly business owners for feedback before paid outreach
 
 ---
 
 ## Open Questions (resolve before build)
 
-1. **Final pricing** — are Starter/Growth numbers right for your margin after VPS + your labor?
-2. **Brand URL** — subdomain (`hermes.strohmpartners.com`) or path (`strohmpartners.com/hermes`)?
-3. **Real testimonials** — any early Hermes deployments to quote, or launch with "case study in progress"?
-4. **Geographic focus** — Central PA local only, or national remote setup?
-5. **Care plan SLA** — response time commitment (e.g. 1 business day)?
+1. **Final pricing** - are Starter/Growth numbers right for your margin after VPS + your labor?
+2. **Brand URL** - subdomain (`hermes.strohmpartners.com`) or path (`strohmpartners.com/hermes`)?
+3. **Real testimonials** - any early Hermes deployments to quote, or launch with "case study in progress"?
+4. **Geographic focus** - Central PA local only, or national remote setup?
+5. **Care plan SLA** - response time commitment (e.g. 1 business day)?
